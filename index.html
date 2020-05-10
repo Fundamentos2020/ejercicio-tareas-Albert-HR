@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista Tareas</title>
+</head>
+
+<body onload="cargarCatgr()">
+    <script src="app.js"></script>
+
+    <!-- TITLE -->
+    <div id="tit">
+        Lista Tareas
+    </div>
+
+    <!-- Cuerpo -->
+    <div class="cont">
+        <div style="margin-top: 1em;">
+            <div id="txtC">Categoria: </div>
+            <select onchange="cargarTrs(this.value);" name="" id="ctgr"></select>
+        </div>
+
+        <div class="contT w-m-75 w-s-100" id="trs">
+            <!-- Tareas -->
+            <!-- <div style="margin: 1em; border-top: 1px solid lightslategray" class="row">
+
+
+                <div class=" col-m-6 col-s-6 nomT">Tarea 1</div>
+
+                <div class="col-m-6 col-s-6 row" >
+                    <div class=" col-s-12 col-m-12 FAC">Categoria 1</div>
+                </div>
+
+                <div class=" col-m-12 col-s-12 cuerpoT">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolore cum deleniti iusto accusantium
+                    saepe ut, provident quis rerum nisi possimus. Exercitationem voluptates nemo optio deserunt suscipit
+                    vel amet accusantium.
+                </div>
+
+            </div> -->
+
+
+
+
+
+
+            
+
+
+        </div>
+
+    </div>
+
+    <!-- Pie de pagina -->
+    <div class="row">
+        <div class="col-m-12 col-s-12" id="pie">
+            Herrera Rodriguez Carlos Albero - 277898
+        </div>
+    </div>
+</body>
+
+</html>
